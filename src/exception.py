@@ -11,8 +11,9 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
+'''
 try:
     a=2/0
 except Exception as e:
     raise CustomException("division by zero occured",sys)
+    '''
